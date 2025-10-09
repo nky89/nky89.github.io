@@ -1,3 +1,5 @@
 # nky89.github.io
 
-test
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
