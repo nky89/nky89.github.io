@@ -17,3 +17,13 @@ search: true
 tag_archive:
   type: liquid
   path: /tags/
+
+# https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    #     - categories
+    - tags
+  layouts:
+    tag: archive-taxonomy
+  permalinks:
+    tag: /tags/:name/
