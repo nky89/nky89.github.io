@@ -28,3 +28,10 @@ jekyll-archives:
     tag: archive-taxonomy
   permalinks:
     tag: /tags/:name/
+
+# Analytics
+analytics:
+  provider               :  "google"
+  google:
+    tracking_id          : G-CE82KTLK7T
+    anonymize_ip         : true
