@@ -5,6 +5,7 @@ description: 零零碎碎的记录
 plugins:
   - jekyll-remote-theme
   - jekyll-archives
+  - jekyll-include-cache
 
 future: true
 paginate: 5
