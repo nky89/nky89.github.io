@@ -10,7 +10,7 @@ plugins:
 future: true
 paginate: 5
 paginate_path: "/page:num/"
-breadcrumbs: true
+
 show_date: true
 read_time: true
 search: true
