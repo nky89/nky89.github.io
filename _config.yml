@@ -31,7 +31,7 @@ jekyll-archives:
 
 # Analytics
 analytics:
-  provider               :  "google"
+  provider               :  "google-gtag"
   google:
     tracking_id          : G-CE82KTLK7T
     anonymize_ip         : true
