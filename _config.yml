@@ -8,7 +8,7 @@ plugins:
   - jekyll-include-cache
 
 future: true
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 
 show_date: true
