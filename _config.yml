@@ -15,6 +15,14 @@ show_date: true
 read_time: true
 search: true
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+
 collections:
   pages:
     output: true

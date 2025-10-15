@@ -1,7 +1,5 @@
 ---
-layout: single
 title: "获取OM的人任务列表，方便写release notes"
-show_date: true
 date: 2025-10-10 14:30:00 -0000
 tags: OM tasks "release notes" snippet
 ---
