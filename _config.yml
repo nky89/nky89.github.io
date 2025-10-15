@@ -2,6 +2,12 @@ remote_theme: mmistakes/minimal-mistakes@4.27.3
 title: nky的主页
 description: 零零碎碎的记录
 
+#暗黑模式
+#https://humberto.stein-shiromoto.net/posts/2022/09/27/blog-post_adding_theme_switch_to_minimal_mistakes
+
+minimal_mistakes_skin: "default"
+minimal_mistakes_skin2: "dark"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-archives
@@ -40,10 +46,9 @@ tag_archive:
 #   permalinks:
 #     tag: /tags/:name/
 
-
 # Analytics
 analytics:
-  provider               :  "google-gtag"
+  provider: "google-gtag"
   google:
-    tracking_id          : G-CE82KTLK7T
-    anonymize_ip         : true
+    tracking_id: G-CE82KTLK7T
+    anonymize_ip: true
