@@ -1,7 +1,5 @@
 ---
-layout: single
 title: "鸡蛋专家访谈：日常购买鸡蛋的指导意义"
-show_date: true
 date: 2025-10-09 13:00:00 -0000
 tags: 鸡蛋专家 鸡蛋 指导
 ---
