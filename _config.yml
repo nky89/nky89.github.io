@@ -28,6 +28,7 @@ defaults:
     values:
       layout: single
       show_date: true
+      read_time: true
 
 collections:
   pages:
