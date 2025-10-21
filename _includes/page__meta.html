@@ -16,8 +16,8 @@
       {% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
       
       {%- comment -%}
-      For Chinese content, we use character count divided by 3 as an approximation of word count.
-      This accounts for Chinese characters (which are ~2 chars per word) plus whitespace and punctuation.
+      For Chinese content, we use character count directly as the "word" count.
+      For Chinese text, words_per_minute should be interpreted as characters per minute.
       Regular English content has a char-to-word ratio of ~5, while Chinese content has a much higher ratio.
       {%- endcomment -%}
       
@@ -27,11 +27,11 @@
       
       {%- comment -%}
       If character count is much larger than word count (ratio > 8), 
-      it's likely Chinese/CJK content. Use character count / 3 as word estimate.
+      it's likely Chinese/CJK content. Use character count directly.
       {%- endcomment -%}
       {% assign char_to_word_ratio = chars | divided_by: words %}
       {% if char_to_word_ratio > 8 %}
-        {% assign words = chars | divided_by: 3 %}
+        {% assign words = chars %}
       {% endif %}
 
       <span class="page__meta-readtime">
