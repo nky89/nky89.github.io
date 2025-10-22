@@ -29,7 +29,7 @@ defaults:
       layout: single
       show_date: true
       read_time: true
-      words_per_minute: 150
+      words_per_minute: 300
 
 collections:
   pages:
