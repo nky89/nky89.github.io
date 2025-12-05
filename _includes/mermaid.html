@@ -4,10 +4,30 @@
   (async () => {
     // register ELK
     mermaid.registerLayoutLoaders(elkLayouts);
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+
+    var mmSkin = "dark";
+    if (mmSkin === "default") {
+      mmSkin = prefersDark ? "dark" : "default";
+    }
+    var mjsTheme = {
+      air: "default",
+      aqua: "default",
+      contrast: "default",
+      dark: "dark",
+      default: "default",
+      dirt: "default",
+      mint: "mint",
+      neon: "dark",
+      plum: "dark",
+      sunrise: "default",
+    }[mmSkin];
 
     let config = {
       startOnLoad: false,
-      theme: "neutral",
+      theme: mjsTheme,
       themeVariables: {
         nodeBorder: "#FF6B6B", // Red border for nodes
         fontSize: "1em", // Default is 16px
