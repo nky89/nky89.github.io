@@ -1,6 +1,8 @@
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 title: nky的主页
 description: 零零碎碎的记录
+url: "https://blog.nky89.com"
+baseurl: ""
 
 #暗黑模式
 #https://humberto.stein-shiromoto.net/posts/2022/09/27/blog-post_adding_theme_switch_to_minimal_mistakes
